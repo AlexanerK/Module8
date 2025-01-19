@@ -2,7 +2,7 @@
 def add_everything_up(a,b):
     try:
         result = a + b
-        return result
+        return round(result,3)
     except TypeError:
         return f'{str(a)+str(b)}'
 
